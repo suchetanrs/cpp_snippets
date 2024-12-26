@@ -1,0 +1,11 @@
+#-----------------------------------------------------------------------------
+# Generated Config file for OriginalPackage
+#-----------------------------------------------------------------------------
+
+@PACKAGE_INIT@
+
+# Import targets from the generated targets file
+include("${CMAKE_CURRENT_LIST_DIR}/OriginalPackageTargets.cmake")
+
+# Include macros so that the dependent project can call run_original_exe()
+include("${CMAKE_CURRENT_LIST_DIR}/OriginalPackageMacros.cmake")
